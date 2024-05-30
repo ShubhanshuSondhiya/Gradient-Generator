@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(to right, #0309e1,#d3789c);
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#heading_main{
+    background-image: url(
+"https://images.pexels.com/photos/3473569/pexels-photo-3473569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+            background-repeat: repeat;
+            background-clip:calc() ;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-top: 150px;
+            font-size: 60px;
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-family: 'Steelfish Rg', 'helvetica neue', 
+                            helvetica, arial, sans-serif;
+            font-weight: 800;
+            -webkit-font-smoothing: antialiased;
+}
+#div_container{
+    display: flex;
+    padding: 10px;
+}
+#div_1{
+    -webkit-box-shadow: 0 10px 6px -6px #000000;
+	-moz-box-shadow: 0 10px 6px -6px #777;
+	box-shadow: 0 10px 6px -6px #000000;
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: #000980;
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    margin: 10px;
+}
+#div_2{
+    -webkit-box-shadow: 0 10px 6px -6px #000000;
+	-moz-box-shadow: 0 10px 6px -6px #777;
+	box-shadow: 0 10px 6px -6px #000000;
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: #19008a;
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    margin: 10px;
+}
+#cpy_btn{
+    padding: 5px;
+    margin: 10px;
+    font-size: small;
+    border-color: #6969695d;
+    color: white;
+    background-color: #17006900;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+#grd_code{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: #00000056;
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+    margin: 10px;
+}
+@media screen and (max-width: 520px) {
+#heading_main{
+    font-size: 40px;
+    margin-top: 200px;
+}
+#grd_code{
+    text-align: center;
+    width: 90%;
+}
+}
